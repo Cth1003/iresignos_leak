@@ -1,0 +1,188 @@
+/*CSS By S0n1c And Joe NO ITS IRESIGNOS*/
+/* All Rights Reserved TO IRESIGNOS*/
+
+
+/* font (San Francisco) */
+@font-face { font-family: SanFrancisco; src: url('sf.ttf'); }
+* {
+	font-weight: 300;
+	font-family: SanFrancisco;
+}
+
+
+.navbar {
+	background-color: #ffb100;
+	color: white;
+}
+
+.page-content {
+	/*background: white;*/
+}
+
+#screen {
+    margin: 0px;
+    width: 100%;
+}
+
+input[type=file] {
+
+}
+
+.game-pad-button {
+	background-color: white;
+	border-radius: 100px;
+	border: none;
+    color: #ffb100 !important;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+}
+
+.game-page {
+padding-top: 0px !important;
+background: -webkit-linear-gradient(#ffc643, #ffb100);
+}
+
+.game-arrows {
+	
+    left: 20%;
+    position: absolute;
+    margin-top: 30%;
+}
+
+.game-arrow-up {
+	background: white;
+    color: #ffb100 !important;
+    padding: 21px 15px;
+    border-radius: 10px 10px 0px 0px;
+    border: none;
+} 
+a.game-arrow-down {
+    background: white;
+    color: #ffb100 !important;
+    padding: 33px 15px;
+    border-radius: 0px 0px 10px 10px;
+    top: 201%;
+    position: absolute;
+    border: none;
+}
+
+a.game-arrow-left {
+    background: white;
+    color: #ffb100 !important;
+    padding: 15px 25px;
+    border-radius: 10px 0px 0px 10px;
+    left: -105%;
+    position: absolute;
+    top: 150%;
+    border: none;
+}
+
+a.game-arrow-right {
+    background: white;
+    color: #ffb100 !important;
+    padding: 15px 24px;
+    border-radius: 0px 10px 10px 0px;
+    left: 91%;
+    position: absolute;
+    top: 152%;
+    border: none;
+}
+
+
+a.game-aButton {
+	background: white;
+	color: #ffb100 !important;
+	padding: 20px 30px;
+	border-radius: 100px;
+	right: 20px;
+	position: absolute;
+	text-align: center;
+	font-size: 20px;
+	border: none;
+} 
+
+a.game-bButton {
+	background: white;
+	color: #ffb100 !important;
+	padding: 20px 30px;
+	border-radius: 100px;
+	right: 80px;
+	top: 75px;
+	position: absolute;
+	text-align: center;
+	font-size: 20px;
+	border: none;
+	
+} 
+
+.game-buttons {
+	right: 5%;
+	position: absolute;
+	margin-top: 25%;
+}
+
+.game-bottom {
+	bottom: 8%;
+    position: absolute;
+    color: white;
+}
+
+.game-select-space {
+left: 40%;
+    position: fixed;
+}
+
+.game-start-space {
+right: 40%;
+    position: fixed;
+}
+
+.game-select {
+	background: white;
+	padding: 2px 10px;
+	border-radius: 100px;
+	border: none;
+}
+.game-start {
+	background: white;
+	padding: 2px 10px;
+	border-radius: 100px;
+	border: none;
+}
+.statusbar-overlay {
+	background: #ffb100;
+	-webkit-transition: 400ms;
+    transition: 400ms;
+}
+.navbar:after {
+	background: #ffb100;
+	-webkit-transition: 400ms;
+    transition: 400ms;
+} /* Joseph */
+body.layout-dark .statusbar-overlay {
+    background: #131313;
+}   
+body.layout-dark .navbar:after {
+	background: #131313;
+}
+.content-block-inner:before {
+	background-color: transparent;
+}
+.content-block-inner:after {
+	background-color: transparent;
+}
+.notifications .item-title {
+    font-weight: 400 !important;
+    height: 36px;
+    text-transform: uppercase;
+    line-height: 36px;
+    font-size: 16px;
+}
+
+
